@@ -1,46 +1,14 @@
-# yuan_shen
+1.前端：
 
-## Project setup
+（1）进入打开 vue 目录下的 yuan_shen。
 
-```
-npm install
-```
+（2）npm i (安装模块依赖)。
 
-### api 接口
+若出现 npm ERR! code ERESOLVE npm ERR! ERESOLVE unable to resolve dependency tree 的错误，在新版本的 npm 中，默认情况下，npm install 遇到冲突的 peerDependencies 时将失败。
 
-在 src/api/request.js 中
+解决方案 1：npm install --legacy-peer-deps
 
-export const baseURL = "http://127.0.0.1:5000"
+解决方案 2：npm i npm@6 -g（降低 npm 版本）
 
-### Compiles and hot-reloads for development
-
-```
-
-npm run serve
-
-```
-
-### Compiles and minifies for production
-
-```
-
-npm run build
-
-```
-
-### Lints and fixes files
-
-```
-
-npm run lint
-
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
-```
-
-```
+（2）安装成功后 npm run serve 启动脚手架。
 
