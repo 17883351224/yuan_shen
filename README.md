@@ -1,8 +1,6 @@
 1.前端：
 
-（1）进入打开 vue 目录下的 yuan_shen。
-
-（2）npm i (安装模块依赖)。
+（1）npm i (安装模块依赖)。
 
 若出现 npm ERR! code ERESOLVE npm ERR! ERESOLVE unable to resolve dependency tree 的错误，在新版本的 npm 中，默认情况下，npm install 遇到冲突的 peerDependencies 时将失败。
 
